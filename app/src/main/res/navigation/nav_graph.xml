@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment2">
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.emiranda.myapplication.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_listDetailPlaceFragment"
+            app:destination="@id/listDetailPlaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myAccountFragment"
+        android:name="com.emiranda.myapplication.myProfile.MyAccountFragment"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" >
+        <action
+            android:id="@+id/action_myAccountFragment_to_uploadImageFragment"
+            app:destination="@id/uploadImageFragment" />
+        <action
+            android:id="@+id/action_myAccountFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/listDetailPlaceFragment"
+        android:name="com.emiranda.myapplication.home.listDetailPlaces.ListDetailPlaceFragment"
+        android:label="fragment_list_detail_place"
+        tools:layout="@layout/fragment_list_detail_place" />
+    <fragment
+        android:id="@+id/uploadImageFragment"
+        android:name="com.emiranda.myapplication.myProfile.uploadImage.UploadImageFragment"
+        android:label="fragment_upload_image"
+        tools:layout="@layout/fragment_upload_image" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.emiranda.myapplication.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>

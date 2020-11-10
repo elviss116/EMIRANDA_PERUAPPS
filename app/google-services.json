@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018157312134",
+    "firebase_url": "https://peru-apps-b3e20.firebaseio.com",
+    "project_id": "peru-apps-b3e20",
+    "storage_bucket": "peru-apps-b3e20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018157312134:android:928327f1623cf7c4a98907",
+        "android_client_info": {
+          "package_name": "com.emiranda.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018157312134-odtjd1pq93knfibcj054k3ftisu9maf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsoBmpAgVss0HEa_1uEjnTBT3H8MK-snQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018157312134-odtjd1pq93knfibcj054k3ftisu9maf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
